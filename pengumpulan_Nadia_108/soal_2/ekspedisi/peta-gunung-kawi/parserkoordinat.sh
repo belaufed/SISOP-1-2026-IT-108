@@ -3,12 +3,12 @@
 awk '
 /"id": "node_/ {
   split($0, a, "\"")
-  id = a[4]
+  id = line
 }
 
 /"site_name"/ {
   split($0, a, "\"")
-  name = a[4]
+  name = line
 }
 /"latitude"/ {
   split($0, a, ": ")
@@ -17,7 +17,7 @@ awk '
 }
 /"longitude"/ {
   split($0, a, ": ")
-  lon = a[2]
+  lon + a[2]
   sub(/,/, "", lon)
   print id ", " name ", "lat ", " lon
 }

@@ -9,5 +9,5 @@ lon2=$(awk -F', ' 'NR==4 {print $4}' titik-penting.txt)
 mid_lat=$(awk "BEGIN {printf \"%.6f\", ($lat1 + $lat2)/2}")
 mid_lon=$(awk "BEGIN {printf \"%.6f\", ($lon1 + $lon2)/2}")
 
-echo "$mid_lat, $mid_lon" > posisipusaka.txt
+echo "$mid_lat, $mid_lon)" > posisipusaka.txt
 cat posisipusaka.txt
