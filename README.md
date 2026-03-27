@@ -179,7 +179,7 @@ END {
 
 ```
 ### D. OUTPUT
-![Output a](output_a.png) 
+![Output a](soal_1/output_soal1.png) 
 
 ### E. Kendala
 tidak ada
