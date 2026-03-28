@@ -16,18 +16,18 @@ NR > 1{
    total_p++
    
    #untuk jml gerbong (B)
-   carriages[$2] = 1
+   carriages[$4] = 1
 
    #penumpang tertua(C)
-   if ($3 > max_age) {
-       max_age = $3
+   if ($2 > max_age) {
+       max_age = $2
        oldest_name = $1
    }
    #rata rata tot. usia(D)
-   sum_age += $3
+   sum_age += $2
    
    #hitung bisnis class(E)
-   if ($4 == "Business") {
+   if ($3 == "Business") {
        business_count++
    }
 }

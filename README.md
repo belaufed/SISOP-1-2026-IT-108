@@ -318,3 +318,11 @@ tidak ada
 ### Tampilan tree
 
 ![hasil tree](hasil-tree.png) 
+
+## REVISI
+
+pada soal pertama, saya tidak menggunakan full data dari `passenger.csv` hanya memakai beberapa data saja, sehingga output nya tidak sesuai dengan yang diminta dari soal. setelah saya ubah pada bagian `passenger.csv` dan `KANJ.sh` untuk menyesuaikan data baru, maka didapatkan hasil output sebagai berikut :
+
+**Output soal_1 yang terbaru**
+
+![revisi-output](soal_1/revisi-output.png) 
