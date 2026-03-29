@@ -11,9 +11,9 @@ Pada soal ini, kita diharapkan untuk menganalisis data penumpang dari kereta Arg
 
 ```bash
 nama,gerbong,usia,class
-Rusdi,G1,25,Business
-Amba,G2,30,Economy
-Agus,G1,60,Business
+Budi Hartanto,34,Economy,Gerbong2
+Sinta Livia,28,Business,Gerbong1
+Andi Zaky,45,Economy	Gerbong4
 ```
 
 dalam kode dibutuhkan koma untuk memisahkan antara kriteria menggunakan `FS=","` pada AWK. Hal yang terlampir dalam data ini adalah:
