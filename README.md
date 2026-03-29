@@ -13,7 +13,7 @@ Pada soal ini, kita diharapkan untuk menganalisis data penumpang dari kereta Arg
 nama,gerbong,usia,class
 Budi Hartanto,34,Economy,Gerbong2
 Sinta Livia,28,Business,Gerbong1
-Andi Zaky,45,Economy	Gerbong4
+Andi Zaky,45,Economy,Gerbong4
 ```
 
 dalam kode dibutuhkan koma untuk memisahkan antara kriteria menggunakan `FS=","` pada AWK. Hal yang terlampir dalam data ini adalah:
